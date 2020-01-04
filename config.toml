@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Louis Attempts Tech"
+title = "Louis' Personal Site"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
@@ -14,7 +14,7 @@ canonifyURLs = true
   # Sets the meta tag description
   description          = "Louis Tsiattalou"
   # Sets the navbarTitle that appears in the top left of the navigation bar
-  navbarTitle          = "Louis Attempts Tech"
+  navbarTitle          = "Louis Tsiattalou"
   # Sets where "View More Posts" links
   viewMorePostLink     = "/posts/"
 
@@ -84,11 +84,11 @@ canonifyURLs = true
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
 [params.intro]
-  header    = "Louis Attempts Tech"
+  header    = "Louis Tsiattalou's Personal Site"
 
-  paragraph = "This is a blog about my various projects, mainly relating to Data Science and Tech stuff (including gaming)"
+  paragraph = "Welcome to my site. You can find my personal blog, CV and an About page about me here. Feel free to get in contact."
 
-  about     = "Hi, I'm Louis Tsiattalou. I'm a Data Scientist for HM Government. I created this blog to share some of the more interesting stuff I've been up to relating to Data Science and Tech experiments. All views are my own and do not necessarily represent the view of HM Govt."
+  about     = "Hi, I'm Louis Tsiattalou. I'm a Data Scientist working for the British Government. I do not post much about the analyses I perform as part of my work with my department (Business Energy and Industrial Strategy) due to the sometimes confidential nature of the work. But I hope you enjoy what's left; random analyses in topics I'm interested in, techy opinions, etc. Therefore, all views, opinions and whatnot expressed on this website are my own, and do not necessarily represent the view of the Civil Service."
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.

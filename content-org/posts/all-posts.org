@@ -6,6 +6,8 @@
 #+startup: indent
 #+startup: content
 
+# https://ox-hugo.scripter.co/doc/org-meta-data-to-hugo-front-matter/
+
 # Macros
 #+macro: doc [[https://ox-hugo.scripter.co/doc/$1][$2]]
 #+macro: oxhugoissue =ox-hugo= Issue #[[https://github.com/kaushalmodi/ox-hugo/issues/$1][$1]]
@@ -17,47 +19,498 @@
 
 #+AUTHOR: Louis Tsiattalou
 
-* Technology                                                    :@Technology:
+* Data Science :@Data__Science:
+** Learning Package Development in Python
+https://thepythonguru.com/writing-packages-in-python/
+*** Packaging
+- Setuptools?
+- disttools?
+- Wheels
+- =setup.py=
+*** Documentation
+- Sphinx
+https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html
+** DRAFT Fuzzy Data Matching with TF-IDF
+CLOSED: [2019-12-24 Tue 16:33]
+*** What is TF-IDF?
+- Term Frequency - Inverse Document Frequency
+*** How can it be used to match strings together?
+- N-grams
+- Define Sparse TF-IDF matrix on n-grams
+- K Nearest Neighbours unsupervised learning to match other datasets
+*** Why not use classic similarity metrics?
+- Quadratic time algorithms!
+- This application runs in linear time, so it's excellent for really large
+  dataset matching.
+
+* Technology :@Technology:
 :PROPERTIES:
 :END:
-** DONE Replacing the T440p Trackpad                              :Thinkpad:
-CLOSED: [2018-02-24 Sat 20:19] SCHEDULED: <2018-02-24 Sat>
+* Learning :@Learning:
 :PROPERTIES:
-:EXPORT_FILE_NAME: replacing-the-t440p-trackpad
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured thinkpad_stock.jpg :type post
 :END:
-This is difficult thing to do for a beginner, and there are virtually no step-by-step resources online that detail the optimal way to do this. Hopefully this blog post will address this!
+** DONE Learning How to Learn Notes I: Intro & Modes of Learning :LearningHowToLearn:
+CLOSED: [2019-11-21 Thu 15:19]
+:PROPERTIES:
+:EXPORT_FILE_NAME: learning-how-to-learn-1
+:CUSTOM_ID: learning-how-to-learn-1
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :type post
+:END:
+This is the first in a five part series centered around the [[https://www.coursera.org/learn/learning-how-to-learn/][Learning How To
+Learn]] course, available as a free MOOC on Coursera. I've always been interested
+in how to optimise the learning process; the Data Science profession is built on
+very quickly shifting sands, so staying up to date with the latest advancements
+in the field is highly important for any professional working in the space.
+There will be four posts (synthesizing the learning from each week of the
+course), along with a final shorter post that reviews the course as a whole.
 
-*** But... Why?
+I first saw recommendations for the course on Hacker News; the timing was
+serendipitous as it fell in with a particularly quiet period at work, during the
+2019 UK General Election. Purdah rules come into effect, which has two effects:
 
-The T440(p/s) and X240 series Thinkpads came with an /absolute trash/ trackpad; called the /clickpad/. I personally have no idea what Lenovo were thinking when they fit their new flagships with this thing. The entire thing was basically one large button, with no physical buttons at the top for TrackPoint users. It was loud, wobbly, and a downgrade in pretty much every way compared to the previously used T430 trackpads.
+1. Publication of work is forbidden as it may influence the election outcome.
+   Thus, many analytical products become "frozen in time".
+2. The ensuing uncertainty after an election period can completely shake up the
+   large projects going on at a department.
 
-Luckily, Lenovo wised up and used standard trackpads and refitted the physical buttons when they released the xx50 series laptops. They had the exact same dimensions and ribbon connector as the T440's clickpad. Some clever cookie somewhere figured out you could retrofit the xx50 trackpads onto the xx40 Thinkpads. As somebody who just picked up a T440p on a bargain recently, I figured this is a must-have, as a TrackPoint user.
+Thus, Civil Servants often use the time to catch up on their professional
+development, reach out to other departments, and start new schemes. I elected to
+use some of the time to complete the Learning How To Learn course, amongst other
+more technically-focused learning activities.
 
-Unfortunately, there is a lot of misinformation online (talking about taking out the motherboard to replace the trackpad and other non-sensical rubbish). Anyone can follow this guide, it's quick and easy. This guide is for the T440p - there are resources online for the T440/T440s, but I don't imagine the process will be all that different for the T440p than those models. I haven't replaced an X-series clickpad, but again, I don't htink it'll be all that different.
+These notes were generated from notes written by hand during the course. They
+are not purely notes from the course - there are some additional notes /
+connections I've made based on my own experiences and other readings in relevant
+subject areas. They're not too touched up, so forgive any stylistic shifts or
+typos!
 
-You will need:
-- A small Phillips screwdriver.
-- A small flathead screwdriver/plastic wedge.
-- A T450 trackpad.
-- 20-40 minutes, depending on how experienced you are with taking apart laptops.
+Course Authors:
+- Dr Barbara Oakley
+- Dr Terrence Sejnowski
 
-That's literally it.
+*** Focused & Diffused Learning
+- The course is accompanied by A Mind for Numbers, by Dr Barbara Oakley
+- Core to the course is the idea of two modes of Learning:
+  - Focused Mode (attention on one thing, intentional, neurons firing in close proximity)
+  - Diffuse Mode (unfocused learning mode, unintentional, strenghtening of
+    neurons spread out over a wider area, connections made with existing neural connections)
+- Going back and forth between these two modes is what enables us to learn;
+    both are vital for the process. Growing Neurons and connecting/strengthening
+    them is key to the learning process.
+- Focused Mode is best for learning new things that are complex.
+- Diffuse Mode is best for drawing connections between ideas and concepts based
+  on a neural pathway you've already developed by learning in Focused Mode.
+- It's vital to allow for enough time for learning new things, especially if the
+  subject matter is difficult, because learning things too quickly (cramming)
+  causes a jumble of learned information that can't be effectively sorted
+  through when called upon organically (although, from experience, it can be
+  good for rote memorisation of methods). Crammed information can't be
+  effectively called upon in domain-invariant ways, which leads to inability to
+  generalise learning experiences from one application to another.
+- This learning schism (marathon vs sprint) can be likened to muscle
+  development; it takes a lot of time and continuous progressive strain to build
+  muscle mass efficiently and sustainably. The brain happens to work in the same
+  way, it's just less intuitive because muscle is tangible, learning is not.
 
-*** Obtaining the Parts
+  [[./images/Learning/LearningHowToLearn/FocusedVsDiffuse.png]]
 
-*** Opening the Chassis
+  The above screenshot shows the difference between neuron interactions in
+  Focused and Diffused Mode. Focused Mode clusters neurons close together, like
+  a pinball machine with innumerable close-knit bumpers, so trains of thought
+  activate multiple "bumpers" in close proximity. Diffused mode spaces neurons
+  out further apart from one another; trains of thought bounce across wide areas
+  in the brain, connecting neurons in different areas together.
 
-*** Removing the Keyboard & Ribbon Cables
+*** Procrastination, Memory & Sleep
+- The author hated Maths & Science as a child, but this was changed as she got older.
+- Key to this was her tendency to always procrastinate with anything Maths
+  related. The procrastination process is started when people have a task
+  that's making them anxious/unhappy lingering over them. When this happens, the
+  brain tries to rectify the problem by shifting focus and distracting the
+  person to something easy, like browsing Twitter/Reddit. Junk Food for the brain.
+- The Pomodoro Method (25 minutes focused / 5 minutes rest) helps break the
+  brain out of this cycle because of the small chunks of focused learning, which
+  happens to be around the amount of time in which we can remain completely in
+  Focused Mode without performance loss. Then, the 5 minute chunk allows the
+  Diffuse Mode to take over and solidify the learned material.
+**** Memory
+- There are two types of Memory:
+  - Long Term Memory (like a warehouse, sometimes slow to search, less specific,
+    but absolutely massive)
+  - Working Memory (approximately 4 chunks of information can be cotained within
+    it, like a blackboard with limited space & disappearing chalk).
+- To get information from working to long term memory, repetition is required
+  over time.
+- This is how Spaced Repetition works; it's the most efficient way to move
+  chunks of information from working to long term memory.
+- Trying to cram information without leaving adequate time / diffusion mode
+  learning is a bit like trying to lay bricks before the mortar is dry - the
+  information will end up cluttered, messy, and fragile.
+**** Sleep
+- Sleep is vital for learning because it clears out blockers for learning in the
+  form of melatonin/cortisol imbalances in the brain. It also acts a session
+  during which the brain can sort through its Working/Short Term memory cache
+  and clear out unnecessary information. It replays practiced material through
+  the mind, strengthening the most important neuronal connections, while
+  clipping unnecessary ones. These different processes happen during different
+  stages of sleep (see Why We Sleep by Dr Matthew Walker, very interesting book
+  if a bit prone to overlabouring the point).
+*** Interview with Dr Terrence Sejnowski
+Terrence is one of the world's leading Neuroscientists. Here are some tips from
+him regarding his learning process.
 
-*** Removing the HDD/Disk Drive
+1. Boring stuff will always be boring, but you should be concerned if the
+   subject matter is interesting but you're not engaging. If it's a problem with
+   the delivery, you can ask a question and it will help refocus things.
+2. Physical Activity is the most optimal Diffuse Learning Mode activator,
+   because it causes the brain to grow new neurons and increases their
+   connectivity.
+3. Multitasking isn't actually doing two things at once, it's almost impossible
+   to do things truly in tandem. Our brains are serial processor machines.
+   Multitasking is more about one's ability to switch contexts, and when in a
+   busy, distractive environment it's an important skill to work on.
+4. Neurons in the brain's cortex are there from birth, but neurons in the
+   Hippocampus, the part of the brain responsible for learning and memory, are
+   constantly regenerating. The connectivity of new neurons is influenced by the
+   environment the person is in; stimulating environments (in terms of being
+   around other people, interesting places, etc) can increase neural
+   connectivity by a factor of 2.
+5. This is why Creative Thinking happens more effectively in the presence of
+   others. Interacting with others by bouncing ideas around, challenging one
+   another, etc, increases the brain's ability to think creatively on a
+   neurophysical level.
+6. Persistence and Passion are more sustainable than raw talent when it comes to
+   learning things. Learning areas should be picked based on those factors.
+** DONE Learning How to Learn Notes II: Chunking :LearningHowToLearn:
+CLOSED: [2019-12-12 Thu 21:23]
+:PROPERTIES:
+:EXPORT_FILE_NAME: learning-how-to-learn-2
+:CUSTOM_ID: learning-how-to-learn-2
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :type post
+:END:
 
-I'm not entirely sure this section is necessary, but I haven't tested it out /without/ doing this, I just did it anyway because the "guide" I was following told me to. Although halfway through following that I said "sod this" because I'm pretty sure it was full of crap and decided to go my own way.
+This is a second in a five part series on the [[https://www.coursera.org/learn/learning-how-to-learn/][Learning How To Learn]] course on
+Coursera. For context on this series of posts, please see the first post [[#learning-how-to-learn-1][here]].
 
-*** Removing the Palm Rest
+This week is all about the technique of "chunking"; a technique used to improve
+upon one's ability to commit new complex information to memory in a sustainable
+way, and improve transfer learning potential for the future.
 
-*** Replacing the Trackpad
+*** What is Chunking?
+- Chunking helps the learning process more efficient; bundling related material
+  and concepts into "chunks" enables you to synthesize the material more effectively.
+- Think of it like assembling a jigsaw; the bigger picture helps learning stick
+  as you develop an understanding of the details and minichunks that make up the "chunk".
+- Focused Mode deliberately links chunks together through deliberate learning
+  efforts. The Diffuse Mode links together chunks at random to see what sticks.
+- By blending bottom-up (small details / facts / techniques / methods) and
+  top-down (big picture stuff) learning of a subject area, the resultant chunk
+  can then be built upon for future learning of other subject areas using
+  /transfer learning/, like a Neural Net!
 
-*** Putting it all back together
+*** How to Chunk
+Chunks begin as small minichunks. Starting small and building around the chunk
+while incorporating knowledge of the overall context (the big picture) is what
+makes them effective.
 
-* Data Science
+The general process for creating new mental learning chunks is as follows. /NB:
+Different types of learning require slightly different, but still conceptually
+similar methods of chunking/.
+
+1. Make sure you're *fully focused* on the subject matter you're trying to
+   learn. Remember the 4 slots in your Working Memory (your RAM)? Having the TV
+   on, being in a distractive environment, amongst other things, takes up those
+   slots. By not committing your full attention to the learning process, the
+   brain won't be able to work at its full capacity to learn the material. It's
+   like introducing a RAM bottleneck into your system because you're too busy
+   running a resource hungry (and dopamine inducing) program in the background.
+2. Understand the basic idea. /Really/ understand it. One common learning
+   fallacy is the inability to synthesize information you "understand". Learning
+   is asymmetrical and ultimately useless if you require prompting from the
+   material to synthesize it. More on this later.
+3. Understanding the overall context. This is the point at which the Top-Down
+   Learning meets the Bottom-Up Learning, and a chunk becomes fully formed. A
+   useful way for gaining context is by skim-reading, going through the section
+   headers, or going through a picture walk of the material you're attempting to
+   learn (top-down) before getting into the weeds of the detail (bottom-up)
+
+[[./images/Learning/LearningHowToLearn/chunkstobigpicture.png]]
+
+The above picture helps given an idea of how learning the structure of chunks
+can help you understand the big picture; from the chunks you've learned you can
+piece together the big picture by linking together "person", "wheel", "window",
+etc. This is similar to how CNNs (Convolutional Neural Networks) work.
+
+*** Illusions of Competence
+Rereading material you've already read /doesn't work/. It's just a way for us to
+make ourselves feel like we're learning, it's an easy shortcut that gives us the
+dopamine kick we crave from "understanding" the material as we read it. But this
+doesn't give a long-term and useful committal of the material to Long Term
+Memory. It means we'll be familiar with the subject matter upon prompting, but
+we can't use it spontaneously to link concepts or transfer/build upon that
+knowledge elsewhere. /It is not yet chunked/. Instead, minitesting (recalling
+information without looking at the material) should be practiced after starting
+on new minichunks. This is a great idea because this retrieval process helps
+build up those neural links that will make sure that minichunk of information,
+and the chunk built from it, remain in memory and useful to the learner.
+
+Similarly, concept maps only really work if you are working at a suitably high
+level. It's impossible to build concept maps from the minichunk level, they need
+to be built upon and generated into fully formed chunks first before they can be
+mapped across. Rereading as part of a spaced repetition system can work, but it
+requires a framework and synthesis/retrieval step anyway, so it's not really
+rereading.
+
+
+A final note on illusions of competence; you may not realise it, but your
+environment may be aiding in your understanding/recall of learned chunks. You
+need to be environment independent when learning new information, otherwise
+you'll only be competent in the place you did the original learning! Removing
+those environmental queues by synthesizing the information in different
+environments is an important part of the chunk forming process.
+
+*** Tips on forming chunks
+Learning new chunks requires the use of as many slots in working memory as
+possible. This is why it's important for first remove distractions. Once the
+information is a fully formed chunk, all that material that your mind was
+previously scrambling across your whole brain to develop neural links around
+does not require nearly as much neuron activity. The chunk can be attached to
+one of the existing slots while learning new things to facilitate transfer
+learning. The course uses the analogy of an octopus, deliberately connecting the
+slots and their neurons on a meta level. Once the learning is chunked, those
+neuronal connections are established already, and the octopus doesn't need to
+manually connect them all together again to retrieve the concept they describe.
+
+Making mistakes is an important part of the learning process, which is why
+mini-tests and retrieval is so important. It's OK if you can't, but correcting
+those mistakes reinforces the budding neural links making up the chunk, so it's
+important to do that practice! Combining synthesis with feedback will result in
+better formed chunks.
+
+From experience, the first steps towards becoming an expert in any academic
+topic is to create conceptual chunks about the main theorems/results/techniques
+of the discipline. These mental leaps between the chunks helps unite what may at
+first seem like very scattered bits of information by providing meaning and
+context.
+
+Lastly, metaphors and analogies work really nicely in the creation of chunks.
+Much like mnemonics in language learning; the mnemonic is really useful to help
+facilitate the recall of vocabulary, and the successful recall of the word
+strengthens the neural link and the chunk is strengthened in memory. It
+eventually falls out of relevance as the chunk (in this case, a word) is
+sufficiently well-formed. They act as catalysts/jumping off points for the chunk
+formation.
+
+*** Seeing the big picture
+Motivation is caused by neurons that release dopamine. Drugs cause addiction by
+tricking these neurons into firing when under their influence.
+
+The amygdala is the part of the brain in which emotions are regulated. Emotions
+are necessary for cognition.
+
+Creativity when linking chunks together (combining them in new and unexpected
+ways) requires a library of chunks. One might be surprised to find out how
+applicable chunks are to seemingly unrelated subject matter when the brain
+connects them in diffuse mode. This is why Bell Labs had their wheel & spoke
+structure to simultaneously optimise individuals for deep work and teams for
+serendipitous discovery through creative linking of knowledge; this happens on a
+micro level in the brain between chunks if one has a suitably large chunk library.
+
+Chunking may initially seem difficult. This is because the brain hasn't gotten
+used to the "chunking" process. As the brain gets better at doing it, the chunks
+become larger and more abstract, enabling better "big picture" thinking. This
+requires the creation of lots of chunks, so it's important to get started with
+chunking as soon as possible!
+
+There are two ways to come to solutions; and they lend themselves better to
+focused and diffuse modes respectively.
+
+- Sequential Problem Solving
+  - Working Step by Step to come up to a solution, works best under focused mode.
+- Intuition
+  - Allowing the diffuse mode to make links across chunks to intuitively grasp a
+    creative solution to a problem.
+
+See the screenshot below for a visual example:
+
+[[./images/Learning/LearningHowToLearn/sequentialvsintuition.png]]
+
+Most new learning and understanding comes about using Intuition, rather than
+Sequential Problem Solving. This shows why it's so important to place value in
+the diffuse mode of learning!
+
+*** Overlearning & Interleaving
+Spinning your wheels learning the same thing over and over again is useless
+unless you want to develop automaticity (which you might want to do! Good
+example: times tables).
+
+Overlearning can also increase the /illusions of competence/ effect; so it is
+recommended that you perform what's called *Deliberate Practice*. Deliberate
+Practice is the intentional focus on the hardest material available. It helps
+stimulate neuron growth, prevent illusions of competence, and solidify chunks.
+
+One must also be aware of the phenomenon of *Einstellung*. Einstellung is a
+neurophysical phenomenon where a neural pathway for a certain task is so
+strongly connected that the brain finds it hard to create new solutions. It's
+not necessarily an optimisation thing either; the brain's "road most travelled"
+may be completely suboptimal or even ineffective, but because the pathway is so
+strong it's hard to create new links between those neurons.
+
+How can we avoid the Einstellung effect? You can use *Interleaving*.
+Interleaving is where the best quality learning happens; you incorporate
+different /already learned/ chunks into the learning experience when mastering
+new material. This helps develop multiple alternative approaches to solving
+problems. An example is different ways of solving simultaneous equations;
+substitution and elimination methods.
+
+Ultimately, just knowing /how/ to solve problems isn't enough when you're
+looking to apply chunks. The /when/ is also important, as this enables you to
+build flexibility, creativity and generalisation into your application of
+learned material. Consider that scientific revolutions are disproportionately
+brought about by two groups; young people, and people new to the field. This is
+because they are not mired in einstellung.
+* Work :@Work:
+** DONE 19 Months on the Civil Service Fast Stream :Civil__Service:
+CLOSED: [2019-05-27 Mon 18:00]
+:PROPERTIES:
+:EXPORT_FILE_NAME: my-time-on-the-fast-stream
+:CUSTOM_ID: my-time-on-the-fast-stream
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :type post
+:END:
+
+I left the finance systems consultancy world in September 2017, as I had secured
+a place on the Civil Service Fast Stream. I figured that, now that I've
+"graduated" from the scheme so to speak, I'd put up a post about my experiences
+on the scheme.
+
+If you are reading this post-2019 intake, current plans are to change the format
+of the fast stream significantly for 2020 onwards. This might not end up
+happening, especially since this year has been so politically turbulent with no
+end in sight!
+
+*** Operational Research
+The term "Operational Researcher" confuses people. It still confuses me. The
+profession is not nearly defined as the other analytical professions in the
+Civil Service (Economist, Social Researcher and Statistician). Each analytical
+profession also has a professional network within the Civil Service, of which
+the OR one is the Government Operational Research Service. There's a lot of rich
+history that I won't go into here, but at its core, Operational Research is
+about applying analytical methods to make better decisions. These techniques
+need not necessarily be numerical, they may include softer skills too. Some
+techniques include:
+
+- Simulation
+- Regression
+- Multi-criteria Decision Analysis
+- Wargaming
+- Constraint Optimization
+
+In my view, Data Science is a related discipline to Operational Research, and
+most Operational Research roles have scope for developing Data Science
+techniques. This is how I ended up as a Data Scientist; in the Civil Service,
+almost everyone with the Data Scientist job title is a Operational Researcher or
+a Statistician, and my skills in data engineering landed me quite squarely in
+the burgeoning Government Data Science community.
+
+*** My Placements
+When I joined the scheme I was placed at the Food Standards Agency in an
+Operational Research role, which I quickly adapted into a Data Science role. I
+developed visualisation tools for the department, which involved lots of
+database automation, frontend development with R (using the =shiny= library),
+and automated report writing supporting the FSA's operations and policy
+endeavours. While there, I developed the Data Science capability in the
+Analytics Unit after initially proving the value it could add.
+
+I then joined the Department for Business, Energy, and Industrial Strategy,
+where I was promoted out of the Fast Stream after 7 months. There, I focused
+more on stakeholder engagement with the increased responsibility of the role,
+as well as model building and software engineering skills.
+
+*** The Fast Stream Structure
+Most people do not know that there's significant variation in many of the Fast
+Streams that the Civil Service offer. So my comments here should be taken as
+specifically referring to the *Operational Research* Fast Stream only; as it is
+unique from all others.
+
+There are essentially two main types of Fast Stream - centralised and
+non-centralised. Centralised Fast Streams are directly administered by the
+Cabinet Office, their fast streamers are officially employed by them, and they
+do not get a choice as to what their placements are. Their pay and learning
+offers are also standardised across the board. Most fast streams are
+centralised. Non-centralised fast streamers are employed by the departments at
+which they are placed, have non-standardised pay, but in most cases have some
+input as to what their placements are.
+
+*** My Experiences
+The scheme as a whole certainly had some positives and some negatives. The
+Operational Research Fast Stream is one of the most versatile out of all the
+Fast Streams; you have full control of your placement length and your
+placements. I used this to great effect, moving on from the Food Standards
+Agency when I felt that I had learned as much as I could from that placement
+(less than the standard 1-1.5 year placement), and moved to a department where I
+could continue building on my technical skills while engaging more with policy
+colleagues and line managing other Data Scientists.
+
+Another thing I loved about the scheme was the network with other GFSAs (GORS
+Fast Stream Analysts). There's a fantastic community of other OR Fast Streamers
+I spent a lot of time engaging with, for work stuff and socials too. Lots of my
+best friends in government belong in that group, and it can't really be
+understated how important it is in your early career to have a strong network of
+your peers for support and to socialise with.
+
+However, it wasn't all sunshine and rainbows. Due to its non-centralised
+status, the key aspects of being a "fast stream" are largely luck of the draw
+for your first placement. Particularly, one's experiences with the following
+three aspects of this /development programme/ can be poor compared to other fast
+streamers (and wildly inconsistent between placements within the OR fast stream itself):
+- Pay
+- Learning & Development Opportunities
+- Quality of Work
+For instance, analysts who ended up at DEFRA (Department for Environment, Food
+and Rural Affairs) for their first placement were being paid nearly £10,000 less
+than analysts at the Home Office until they moved, purely based on differences
+interdepartmental payscales. This is a raw deal for the DEFRA analysts, but
+centralised fast streamers are all paid the same wage, and it's significantly
+lower than the median pay reward for the Operational Research Fast Stream, so
+this variation isn't necessarily a bad thing. Similar disparities in L&D
+opportunities and interdepartmental support networks also exist. The quality of
+the roles themselves also have pretty wild variation, but this is inevitable
+for a fast stream covering such a broad church of a profession like OR.
+
+Ultimately, there isn't that much of a difference between being a main-stream
+and fast-stream Operational Researcher, particularly for 1st to 2nd year fast
+streamers (at which point many opt to leave for main stream SEO-level roles;
+better pay and more responsibility, but no rotation mechanism). The main benefit
+I found was the network of other GFSAs, but I was lucky enough to be placed at
+the Food Standards Agency as my first placement, which had good pay and
+excellent L&D opportunities.
+
+If I was to do it all over again? I'd say I got a lot out of the Fast Stream,
+but I wouldn't stay on it for the expected 4 years. I was lucky enough to get
+promoted out of the fast stream relatively early; had I stayed on longer than
+two years, I'd have definitely looked for SEO-level opportunities, which are
+effectively the same jobs as 3rd/4th year fast streamers, but with a
+£6,000-10,000 pay increase. This was my experience of the fast stream as it
+existed between 2011-e.t.a 2020, so many of these problems might have been
+rectified or mitigated by the Fast Stream Transformation programme.
+
+*** Outline :noexport:
+**** My Experiences in Particular
+**** General Impressions
+- Honest impressions of the scheme as a whole
+- Operational Research Fast Stream; different from normal fast streams.
+- Strengths:
+  - Network
+  - Community
+  - Work opportunities
+  - Pride in the discipline and its approach
+- Weaknesses:
+  - Learning & Development hugely lacking.
+  - Ridiculously long recruitment process
+  - Pay is drastically different across the board (some cases hugely
+    uncompetitive and therefore no talent).
+  - Many departments don't have a defined end point to the fast stream. Most
+    simply apply, interview for, and get clearance for G7 levels.
+- Ultimately not all that different from the deal that the Main Streamers get,
+  possibly worse due to the pay differential between HEO and SEO level roles and
+  the Fast Stream role.
