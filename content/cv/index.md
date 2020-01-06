@@ -68,16 +68,13 @@ date = "2019-08-21"
 
 I lead a team of Data Scientists working in Rapid Response and advanced
 techniques at the department. I have lead on high-profile projects involving
-up to 5 other data scientists. These frequently involve using cutting edge
-techniques not used before in Government.
-
-One of these research projects was significant enough to land me in front of the 20
-most senior government officials in the country, including the Cabinet
+up to 6 other data scientists. These frequently involve using cutting edge
+techniques not used before at BEIS, and could involve anything from backend
+engineering to building deep learning models.
+  
+One of these research projects was significant enough to land me in front of the
+20 most senior government officials in the country, including the Cabinet
 Secretary Mark Sedwill.
-
-As part of this role, I am afforded the opportunity to keep up to date with
-the academic literature in the Machine Learning field.
-
 
 ## 2018-2019
 
@@ -93,18 +90,25 @@ Webscraping, Interactive Reporting and Classification models.
 
 **Data Scientist**: Food Standards Agency
 
-I joined the Civil Service Fast Stream and was placed at the Food Standards Agency. I developed the Data Science capability at the department.
+I joined the Civil Service Fast Stream and was placed at the Food Standards
+Agency. I developed the Data Science capability at the department.
 
-My projects included world trade visualisation, and predicting Norovirus frequencies as a function of Tweets with >80% accuracy.
+My projects included world trade visualisation, and predicting Norovirus
+frequencies as a function of Tweets with >80% accuracy.
 
 
 ## 2015-2017
 
 **Consultant**: InfoCat Ltd.
 
-My role was to design, build and integrate financial systems. I worked in a wide variety of sectors, including Investment Banking, FMCG, Charity, Travel and Aerospace firms.
+My role was to design, build and integrate financial systems. I worked in a wide
+variety of sectors, including Investment Banking, FMCG, Charity, Travel and
+Aerospace firms.
 
-I learned a wide range of Data Engineering skills, as the most challenging parts of the role were gluing different systems together in an efficient way. Unlike most consultancies, we especially had a focus on resilience - I learned how to write fantastic documentation and robust software here.
+I learned a wide range of Data Engineering skills, as the most challenging parts
+of the role were gluing different systems together in an efficient way. Unlike
+most consultancies, we had a reputation for our focus on resilience - I learned
+how to write fantastic documentation and robust software here.
 
 
 # Education
@@ -114,11 +118,16 @@ I learned a wide range of Data Engineering skills, as the most challenging parts
 
 **MSci Mathematics (Geophysical and Astrophysical Fluid Dynamics)**: First Class
 
-Research Focused Masters intended to prepare students for PhD study. My research was in Geophysical Fluid Dynamics, where I created a model to track multiple cyclones in the atmosphere using the Barotropic Vorticity Equation using Matlab, and studied their resultant interaction modes. 
+Research Focused Masters intended to prepare students for PhD study. My research
+was in Geophysical Fluid Dynamics, where I created a model to track multiple
+cyclones in the atmosphere using the Barotropic Vorticity Equation using Matlab,
+and studied their resultant interaction modes.
 
-My taught courses were a fairly even mix of Calculus (including fluid dynamics), Statistics, Dynamical Systems, Climate Science and Linear Algebra.
+My taught courses were a fairly even mix of Calculus (including fluid dynamics),
+Statistics, Dynamical Systems, Climate Science and Linear Algebra.
 
-Details on these courses, and my marks on them, are available in my degree transcript.
+Details on these courses, and my marks on them, are available in my degree
+transcript.
 
 
 # Computer Skills
@@ -184,6 +193,7 @@ Details on these courses, and my marks on them, are available in my degree trans
 
 # Interests
 
+This section is a work in progress.
 
 ## Sports
 
@@ -196,19 +206,11 @@ Details on these courses, and my marks on them, are available in my degree trans
 
 # Projects
 
+This section is a work in progress. You can find my Github at the top of the CV
+under "Personal Information".
 
 ## Project One
 
-Homepage: <https://github.com/project_one>
-
-description, text text text text text text text text text
-
 
 ## Project Two
-
-Homepage: <https://github.com/project_two>
-
-description, text text text text text text text text text text text
-text text text text text text text text text text text text text
-text
 
