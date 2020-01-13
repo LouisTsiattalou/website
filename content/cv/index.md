@@ -143,7 +143,7 @@ transcript.
 <tbody>
 <tr>
 <td class="org-left">Python</td>
-<td class="org-left">I am an intermediate-advanced Python user for all data tasks. I have used it for ETL, Deep Learning, Web Applications and NLP.</td>
+<td class="org-left">I am an advanced Python user for all data tasks. I have used it for ETL, Deep Learning, Web Applications and NLP.</td>
 </tr>
 
 
