@@ -6,58 +6,14 @@ date = "2019-08-21"
 
 # Personal Data
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="void">
-
-
-<colgroup>
-<col  class="org-right" />
-
-<col  class="org-left" />
-</colgroup>
-<tbody>
-<tr>
-<td class="org-right">Name:</td>
-<td class="org-left">Louis Tsiattalou</td>
-</tr>
-
-
-<tr>
-<td class="org-right">Age:</td>
-<td class="org-left">27</td>
-</tr>
-
-
-<tr>
-<td class="org-right">Phone:</td>
-<td class="org-left">+447946865272</td>
-</tr>
-
-
-<tr>
-<td class="org-right">Blog:</td>
-<td class="org-left"><a href="https://tsiattalou.com">tsiattalou.com</a> </td>
-</tr>
-
-
-<tr>
-<td class="org-right">Email:</td>
-<td class="org-left"><a href="mailto:louis.tsi@gmail.com">louis.tsi (at) gmail.com</a> </td>
-</tr>
-
-
-<tr>
-<td class="org-right">Github:</td>
-<td class="org-left"><a href="https://github.com/LouisTsiattalou">LouisTsiattalou</a> </td>
-</tr>
-
-
-<tr>
-<td class="org-right">Location:</td>
-<td class="org-left">London, United Kingdom</td>
-</tr>
-</tbody>
-</table>
-
+**Name**     | Louis Tsiattalou
+-------------|------------------------------------------------------------
+**Age**      | 27
+**Phone**    | +447946865272
+**Blog**     | tsiattalou.com
+**Email**    | louis.tsi (at) gmail.com
+**Github**   | [LouisTsiattalou](https//www.github.com/LouisTsiattalou)
+**Location** | London, United Kingdom
 
 # Work Experience
 
@@ -132,63 +88,41 @@ transcript.
 
 # Computer Skills
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="void">
+### Python
+I am an advanced Python user for all data tasks. I have used it for ETL, Deep
+Learning, Web Applications and NLP.
 
+### R
+I am an advanced R user. I have used it mostly for visualisations, ETL,
+statistical modelling, forecasting and interactive reports I have no preference
+for either Python nor R generally speaking; I am language agnostic and use the
+best tool for the job given the wider circumstances of the project.
 
-<colgroup>
-<col  class="org-left" />
+### SQL & Database Administration
+I use SQL to manage backend tasks via Stored Procedures/Functions and for
+advanced querying of databases. I'm experienced with administration and
+performance tuning of both PostgreSQL and Microsoft SQL Server databases.
 
-<col  class="org-left" />
-</colgroup>
-<tbody>
-<tr>
-<td class="org-left">Python</td>
-<td class="org-left">I am an advanced Python user for all data tasks. I have used it for ETL, Deep Learning, Web Applications and NLP.</td>
-</tr>
+### Version Control
+I am an advanced Git user, comfortable using both the CLI and Magit. Most of my
+repositories are politically sensitive, and therefore reside in a secure
+government Gitlab instance I helped set up.
 
+### Shell
+I regularly use the shell to automate common tasks. One example, using `grep`
+and `sed` to backport a consultant-provided NLP library to be compatible with
+our production server python environment.
 
-<tr>
-<td class="org-left">R</td>
-<td class="org-left">I am an advanced R user. I have used it mostly for visualisations, ETL, statistical modelling, forecasting and interactive reports, which have made a big impact in Government recently. I have no preference for either Python nor R; while I am more experienced in R, I am language agnostic.</td>
-</tr>
+### Linux
+My personal machines all run Ubuntu. I'm skilled in using linux operating
+systems in both headless (text only, for server use cases) and GUI modes.
 
+### LaTeX
+Used for my Master's Thesis, static reports in Government, and even for this CV.
 
-<tr>
-<td class="org-left">SQL</td>
-<td class="org-left">I use SQL to manage backend tasks via Stored Procedures and for advanced querying of databases. I&rsquo;m experienced with both PostgreSQL 9+ and Microsoft SQL Server.</td>
-</tr>
-
-
-<tr>
-<td class="org-left">Version Control</td>
-<td class="org-left">I am an advanced Git user. I use Magit to manage my repositories. Most of my repositories are politically sensitive, and therefore reside in a secure government Gitlab instance which I helped set up.</td>
-</tr>
-
-
-<tr>
-<td class="org-left">Shell</td>
-<td class="org-left">I regularly use the shell to automate common tasks.</td>
-</tr>
-
-
-<tr>
-<td class="org-left">Linux</td>
-<td class="org-left">My personal machines all run Ubuntu. I&rsquo;m skilled in using linux operating systems in both headless (text only, for server use cases) and GUI modes.</td>
-</tr>
-
-
-<tr>
-<td class="org-left">LaTeX</td>
-<td class="org-left">Used for my Master&rsquo;s Thesis, static reports in Government, and even for this CV.</td>
-</tr>
-
-
-<tr>
-<td class="org-left">Emacs & Elisp</td>
-<td class="org-left">My preferred IDE. I have intermediate proficiency in its scripting language, Elisp.</td>
-</tr>
-</tbody>
-</table>
+### Emacs & Elisp
+My preferred IDE. I have intermediate proficiency in its scripting language,
+Elisp.
 
 
 # Interests
@@ -209,7 +143,7 @@ This section is a work in progress.
 This section is a work in progress. You can find my Github at the top of the CV
 under "Personal Information".
 
-## Project One
+## Trade Data API
 
 
 ## Project Two
