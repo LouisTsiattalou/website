@@ -88,7 +88,7 @@ canonifyURLs = true
 
   paragraph = "Full Stack Data Scientist & Software Engineer."
 
-  about = "Hi, I'm Louis Tsiattalou. I'm a Data Scientist & Software Engineer working for the British Government. I do not post much about the analyses I perform as part of my work with my department (Business Energy and Industrial Strategy) due to the sometimes confidential nature of the work. But I hope you enjoy what's left; random analyses in topics I'm interested in, techy opinions, etc. Therefore, all views, opinions and whatnot expressed on this website are my own, and do not necessarily represent the view of the Civil Service."
+  about = "Hi, I'm Louis Tsiattalou. I'm a Data Scientist & Software Engineer working for the British Government. I do not post much about the analyses I perform as part of my work with my department (HM Treasury) due to the often confidential nature of the work. But I hope you enjoy what's left; random analyses in topics I'm interested in, techy opinions, etc. Therefore, all views, opinions and whatnot expressed on this website are my own, and do not necessarily represent the view of the Civil Service."
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
