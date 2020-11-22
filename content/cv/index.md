@@ -93,7 +93,9 @@ Science and Linear Algebra. Details on these courses, and my marks on them, are
 available in my degree transcript on request.
 
 
-# Computer Skills
+# Skills
+
+## Technical
 
 ### Python 
 
@@ -144,6 +146,15 @@ make work either with native linux or WSL2.
 
 I use LaTeX for document authoring, including this CV.
 
+## Soft Skills
+
+- Team Leadership & ability to set analytical strategy.
+- Rigorous Learning & Development focus for myself and my team.
+- Excellent communicative skills with stakeholders.
+- Excellent track record of translating business needs into Data Science
+  products.
+- Project Management (both Agile & prescriptive methods).
+
 
 # Interests
 
@@ -185,5 +196,5 @@ HMRC Trade Data is extremely inaccessible in format. This project aims to
 download and ingest the dirty data into a consistent and organised database,
 with an API layer on top.
 
-Current Status: Database Built and optimised. Project on hold as all my time is
+Current Status: ETL processes complete. Project on hold as all my time is
 currently spent working on the COVID Response.
