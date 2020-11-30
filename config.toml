@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Louis' Personal Site"
+title = "Louis Tsiattalou"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
@@ -84,7 +84,7 @@ canonifyURLs = true
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
 [params.intro]
-  header    = "Louis Tsiattalou's Personal Site"
+  header    = "Louis Tsiattalou"
 
   paragraph = "Full Stack Data Scientist & Software Engineer."
 
