@@ -1,13 +1,13 @@
 +++
 title = "CV"
-date = "2020-11-09"
+date = "2020-11-30"
 +++
 
 # Personal Data
 
 | **Name**     | Louis Tsiattalou                                      |
 |--------------|-------------------------------------------------------|
-| **Age**      | 27                                                    |
+| **Age**      | 28                                                    |
 | **Phone**    | +447946865272                                         |
 | **Blog**     | [tsiattalou.com](https://tsiattalou.com)              |
 | **Email**    | [louis.tsi@gmail.com](mailto:louis.tsi@gmail.com)     |
@@ -21,7 +21,7 @@ date = "2020-11-09"
 
 **Lead Data Scientist**: HM Treasury
 
-In February 2020, I moved to the UK's Finance and Economics Ministry to
+In February 2020, I was transferred to the UK's Finance and Economics Ministry to
 introduce Data Science methods to its policymaking process for the first time.
 Utilising skills in Data Engineering, Data Science and Leadership, I have
 quickly ended up key to the department's analytical strategy for the COVID-19
@@ -35,14 +35,16 @@ constraints.
 
 **Data Science Team Leader**: Department for Business, Energy and Industrial Strategy
 
-I lead a team of Data Scientists working in Rapid Response and advanced
-techniques at the department. I was the senior official in charge of
+I previously lead a team of Data Scientists working in Rapid Response and
+advanced techniques at the department. I was the senior official in charge of
 high-profile projects involving up to 6 other data scientists working
 concurrently. These research projects could involve anything from backend
 engineering to transfer learning NLP tasks; the remit was to push the envelope
-on what was possible using Data Science in short delivery timescales.
+on what was possible using Data Science in short delivery timescales. I also
+used my software engineering skills to modernise the team's Data Science
+process.
 
-One of these research projects was significant enough to land me in front of the
+One of my research projects was significant enough to land me in front of the
 20 most senior government officials in the country, including the Cabinet
 Secretary at the time, Mark Sedwill.
 
@@ -104,7 +106,7 @@ Pipelines, Deep Learning, Web Applications, NLP and Package Development.
 
 ### R
 
-I am an advanced R user. I have used it mostly for visualisations, ETL,
+I am an expert R user. I have used it mostly for visualisations, ETL,
 statistical modelling, forecasting and interactive reports. I have no preference
 for either Python nor R generally speaking; I am language agnostic and use the
 best tool for the job given the wider circumstances of the project.
@@ -164,8 +166,8 @@ Formula 1 & Football.
 
 ### Cooking
 
-I primarily cook Italian, Greek, Chinese and Japanese dishes. I also bake
-frequently.
+I primarily cook Italian, Greek, Chinese and Japanese dishes. I am also a keen
+baker.
 
 ### Books
 
@@ -182,7 +184,7 @@ through delivery of closed-source projects in government.
 
 ## TF-IDF String Matcher
 
-<https://github.com/LouisTsiattalou/tfidf%5Fmatcher>
+<https://github.com/LouisTsiattalou/tfidf_matcher>
 
 Python package providing lightning fast string matching using TF-IDF & K-NN
 clustering on ngrams (default 3-grams) of strings. \\(\mathcal{O}(n\log{}n)\\)
