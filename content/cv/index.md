@@ -35,7 +35,7 @@ constraints.
 
 **Data Science Team Leader**: Department for Business, Energy and Industrial Strategy
 
-I previously lead a team of Data Scientists working in Rapid Response and
+I previously led a team of Data Scientists working in Rapid Response and
 advanced techniques at the department. I was the senior official in charge of
 high-profile projects involving up to 6 other data scientists working
 concurrently. These research projects could involve anything from backend
