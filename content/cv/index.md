@@ -19,17 +19,17 @@ date = "2020-11-30"
 
 ## 2020-20xx
 
-**Lead Data Scientist**: HM Treasury
+**Head of Data Science Unit**: HM Treasury
 
-In February 2020, I was transferred to the UK's Finance and Economics Ministry to
-introduce Data Science methods to its policymaking process for the first time.
-Utilising skills in Data Engineering, Data Science and Leadership, I have
-quickly ended up key to the department's analytical strategy for the COVID-19
-pandemic; setting the department's strategy for the adoption of Data Science as
-an analytical discipline, leading projects designed to bolster the evidence base
-for government support schemes, and coordinating colleagues from other
-government departments to ensure efficient project delivery under extreme time
-constraints.
+In February 2020, I was transferred to the UK's Finance and Economics Ministry.
+I built a team around me to introduce Data Science methods in its policymaking
+process for the first time. Utilising skills in Data Engineering, Data Science
+and Leadership, I have quickly ended up key to the department's response to the
+COVID-19 pandemic; setting the department's strategy for the adoption of Data
+Science as an analytical discipline, leading projects designed to bolster the
+evidence base for government support schemes, and coordinating colleagues from
+other government departments to ensure efficient project delivery under extreme
+time constraints.
 
 ## 2019-2020
 
